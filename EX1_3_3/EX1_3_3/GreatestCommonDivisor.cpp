@@ -6,4 +6,9 @@
 //  Copyright © 2020 wada keisuke. All rights reserved.
 //
 
-#include <stdio.h>
+#include"header.hpp"
+
+int GreatestCommonDivisor(int X, int Y){
+    if(!Y) return X;
+    return GreatestCommonDivisor(X, X%Y);
+}

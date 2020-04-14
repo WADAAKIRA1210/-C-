@@ -6,10 +6,15 @@
 //  Copyright © 2020 wada keisuke. All rights reserved.
 //
 
-#include <iostream>
+#include"header.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    int X, Y;
+    
+    std::cout << "input two number\n";
+    std::cin >> X >> Y;
+    std::cout << "GreatestCommonDivisor is " << GreatestCommonDivisor(X, Y) << "\n";
+
     return 0;
 }

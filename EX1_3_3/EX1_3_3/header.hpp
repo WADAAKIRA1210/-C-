@@ -9,6 +9,7 @@
 #ifndef header_hpp
 #define header_hpp
 
-#include <stdio.h>
+#include <iostream>
+int GreatestCommonDivisor(int X, int Y);
 
 #endif /* header_hpp */
